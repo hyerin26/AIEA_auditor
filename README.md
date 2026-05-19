@@ -11,3 +11,25 @@ AIEA_auditor/
 └── task-5/
     ├── rl-car-racing/
     └── rl-carla-gym/
+
+## Task 5: Reinforcement Learning on Nautilus
+
+The `task-5` folder contains files for running reinforcement learning experiments on the Nautilus deployment.
+
+### `rl-car-racing/`
+
+This folder contains the files for running one baseline reinforcement learning algorithm from Stable-Baselines3 on the Car Racing Gymnasium environment.
+
+Contents include:
+
+- `train_car_racing.py`: Training script for the CarRacing-v3 Gymnasium environment using a Stable-Baselines3 baseline algorithm.
+- `logs/`: Training logs generated during the Car Racing experiment, including TensorBoard-related outputs.
+
+### `rl-carla-gym/`
+
+This folder contains the files for running CARLA Gym and plotting the training results with TensorBoard.
+
+Contents include:
+
+- `run.py`: Script used to run the CARLA Gym environment.
+- `train.py`: Training script used for the CARLA Gym experiment.
