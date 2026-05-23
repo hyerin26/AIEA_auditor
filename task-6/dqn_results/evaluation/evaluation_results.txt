@@ -1,0 +1,15 @@
+DQN CarRacing Evaluation Results
+========================================
+Episode 1: 488.45
+Episode 2: 495.59
+Episode 3: 430.41
+Episode 4: 486.96
+Episode 5: 466.90
+Episode 6: 579.39
+Episode 7: 311.76
+Episode 8: 400.00
+Episode 9: 473.38
+Episode 10: 384.66
+========================================
+Mean Reward: 451.75
+Std Reward: 69.81
