@@ -8,8 +8,12 @@ This repository stores the work I completed as a CMPM 118 AIEA Auditor.
 AIEA_auditor/
 ├── README.md
 └── task-5/
-    ├── rl-car-racing/
-    └── rl-carla-gym/
+│   ├── rl-car-racing/
+│   └── rl-carla-gym/
+└── task-6/
+    ├── dqn.py
+    ├── evaluate_dqn.py
+    └── dqn_results/
 ````
 
 ## Task 5: Reinforcement Learning on Nautilus
@@ -33,3 +37,14 @@ Contents include:
 
 * `run.py`: Script used to run the CARLA Gym environment.
 * `train.py`: Training script used for the CARLA Gym experiment.
+
+
+## Task 6: DQN from Scratch on CarRacing-v3
+
+The `task-6` folder contains my from-scratch implementation of Deep Q-Network (DQN) for the CarRacing-v3 Gymnasium environment.
+
+### Files
+
+* `dqn.py`: Training script for the DQN agent.
+* `evaluate_dqn.py`: Evaluation script for the trained model.
+* `dqn_results/`: Saved plots, model outputs, and evaluation results.
