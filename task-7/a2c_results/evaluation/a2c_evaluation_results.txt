@@ -1,0 +1,17 @@
+A2C CarRacing Evaluation Results
+========================================
+Episode 1: 670.61
+Episode 2: 314.04
+Episode 3: 505.54
+Episode 4: 492.59
+Episode 5: 571.64
+Episode 6: 673.97
+Episode 7: 857.14
+Episode 8: 398.17
+Episode 9: 469.40
+Episode 10: 204.64
+========================================
+Mean Reward: 515.77
+Std Reward: 179.66
+Best Reward: 857.14
+Worst Reward: 204.64
