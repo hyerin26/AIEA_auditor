@@ -56,9 +56,9 @@ The `task-6` folder contains my from-scratch implementation of Deep Q-Network (D
 
 ## Task 7: A2C from Scratch on CarRacing-v3
 
-The task-7 folder contains my from-scratch implementation of Advantage Actor-Critic (A2C) for the CarRacing-v3 Gymnasium environment.
+The `task-7` folder contains my from-scratch implementation of Advantage Actor-Critic (A2C) for the CarRacing-v3 Gymnasium environment.
 
 ### Files
-* 'a2c.py': Training script for the A2C agent.
-* 'evaluate_a2c.py': Evaluation script for the trained model.
-* 'a2c_results/': Saved plots, model outputs, and evaluation results.
+* `a2c.py`: Training script for the A2C agent.
+* `evaluate_a2c.py`: Evaluation script for the trained model.
+* `a2c_results/`: Saved plots, model outputs, and evaluation results.
