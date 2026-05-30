@@ -15,9 +15,14 @@ AIEA_auditor/
 │   ├── evaluate_dqn.py
 │   └── dqn_results/
 └── task-7/
-    ├── a2c.py
+│   ├── a2c.py
+│   ├── evaluate_a2c.py
+│   └── a2c_results/
+└── task-8/
+    ├── finetuned_a2c.py
     ├── evaluate_a2c.py
     └── a2c_results/
+
 ````
 
 ## Task 5: Reinforcement Learning on Nautilus
@@ -62,3 +67,13 @@ The `task-7` folder contains my from-scratch implementation of Advantage Actor-C
 * `a2c.py`: Training script for the A2C agent.
 * `evaluate_a2c.py`: Evaluation script for the trained model.
 * `a2c_results/`: Saved plots, model outputs, and evaluation results.
+
+
+## Task 8: Fine-Tuned A2C on CarRacing-v3
+
+The `task-8` folder contains my fine-tuned A2C implementation for the CarRacing-v3 Gymnasium environment. 
+
+### Files
+* `finetuned_a2c.py`: Training script for the fine-tuned A2C agent.
+* `evaluate_a2c.py`: Evaluation script for the trained fine-tuned model.
+* `a2c_results/`: Saved plots, model checkpoints, and evaluation results.
