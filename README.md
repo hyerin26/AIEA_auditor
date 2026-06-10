@@ -19,10 +19,14 @@ AIEA_auditor/
 │   ├── evaluate_a2c.py
 │   └── a2c_results/
 └── task-8/
-    ├── finetuned_a2c.py
-    ├── evaluate_a2c.py
-    └── a2c_results/
-
+│   ├── finetuned_a2c.py
+│   ├── evaluate_a2c.py
+│   └── a2c_results/
+└── task-9/
+    ├── rl_benchmark.py
+    ├── train_scripts/
+    ├── train_results/
+    └── benchmark_results/
 ````
 
 ## Task 5: Reinforcement Learning on Nautilus
@@ -77,3 +81,14 @@ The `task-8` folder contains my fine-tuned A2C implementation for the CarRacing-
 * `finetuned_a2c.py`: Training script for the fine-tuned A2C agent.
 * `evaluate_a2c.py`: Evaluation script for the trained fine-tuned model.
 * `a2c_results/`: Saved plots, model checkpoints, and evaluation results.
+
+
+## Task 9: RL Benchmark Framework on CarRacing-v3
+
+The task-9 folder contains a one-click benchmark framework for comparing multiple reinforcement learning algorithms on the CarRacing-v3 Gymnasium environment.
+
+### Files
+* `rl_benchmark.py`: Main benchmark script that runs all algorithms and generates summary plots.
+* `train_scripts/`: Training scripts for DQN, A2C, and Fine-tuned A2C.
+* `train_results/`: Saved training and evaluation results for each algorithm and seed.
+* `benchmark_results/`: Automatically generated benchmark plots and CSV summary files.
