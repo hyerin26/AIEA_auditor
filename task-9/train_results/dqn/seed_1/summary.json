@@ -1,0 +1,13 @@
+{
+    "algorithm": "DQN",
+    "seed": 1,
+    "total_steps": 1000000,
+    "num_episodes": 1034,
+    "mean_reward": 598.7133547201072,
+    "last_10_mean_reward": 831.8185110484872,
+    "best_reward": 923.3999999999903,
+    "final_eval_reward": 531.3780035478,
+    "best_eval_reward": 885.3586664907237,
+    "mean_loss": 0.09824175846453015,
+    "final_model_path": "./train_results/dqn/seed_1/models/dqn_car_racing_final.pt"
+}

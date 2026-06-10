@@ -1,0 +1,22 @@
+{
+    "algorithm": "Fine-tuned A2C",
+    "seed": 1,
+    "total_steps": 1000000,
+    "num_envs": 4,
+    "n_steps": 20,
+    "optimizer": "Adam",
+    "uses_lr_scheduler": true,
+    "uses_entropy_decay": true,
+    "uses_advantage_normalization": true,
+    "num_episodes": 1728,
+    "mean_reward": 9.396052360534668,
+    "last_10_mean_reward": 237.38613891601562,
+    "best_reward": 873.2214965820312,
+    "final_eval_reward": 393.1008195159082,
+    "best_eval_reward": 452.30388060575325,
+    "mean_loss": 1.066952088846015,
+    "mean_policy_loss": -0.009803630594912526,
+    "mean_value_loss": 2.1575181182307275,
+    "training_time_minutes": 159.5370536883672,
+    "final_model_path": "./train_results/finetuned_a2c/seed_1/models/finetuned_a2c_car_racing_final.pt"
+}

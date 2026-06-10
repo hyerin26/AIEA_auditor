@@ -1,0 +1,16 @@
+{
+    "algorithm": "DQN",
+    "seed": 0,
+    "total_steps": 1000000,
+    "num_episodes": 1019,
+    "mean_reward": 624.9366675286985,
+    "last_10_mean_reward": 838.433589647869,
+    "best_reward": 917.3999999999852,
+    "final_eval_reward": 897.1018545395718,
+    "best_eval_reward": 897.1018545395718,
+    "mean_loss": 0.0902068564339349,
+    "final_model_path": "./train_results/dqn/seed_0/models/dqn_car_racing_final.pt",
+    "benchmark_total_steps": 1000000,
+    "benchmark_time_minutes": 240.29505065282186,
+    "save_dir": "./train_results/dqn/seed_0"
+}

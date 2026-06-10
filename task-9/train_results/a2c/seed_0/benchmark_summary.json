@@ -1,0 +1,21 @@
+{
+    "algorithm": "A2C",
+    "seed": 0,
+    "total_steps": 1000000,
+    "num_envs": 4,
+    "n_steps": 20,
+    "num_episodes": 1434,
+    "mean_reward": 115.2007064819336,
+    "last_10_mean_reward": 601.7981567382812,
+    "best_reward": 916.3042602539062,
+    "final_eval_reward": 82.67654777089088,
+    "best_eval_reward": 550.5332717596724,
+    "mean_loss": 2.110076885952582,
+    "mean_policy_loss": -0.015903751561811855,
+    "mean_value_loss": 4.259420645229981,
+    "training_time_minutes": 162.49154919783274,
+    "final_model_path": "./train_results/a2c/seed_0/models/a2c_car_racing_final.pt",
+    "benchmark_total_steps": 1000000,
+    "benchmark_time_minutes": 162.5207748134931,
+    "save_dir": "./train_results/a2c/seed_0"
+}
